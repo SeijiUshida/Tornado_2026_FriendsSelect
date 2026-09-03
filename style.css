@@ -21,7 +21,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 420px;
-  min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   background:
     radial-gradient(120% 60% at 50% 100%, #48619a 0%, #223464 45%, #0d1442 100%);
@@ -130,6 +130,8 @@ body {
 .content {
   padding: 20px 20px 0;
   flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .page-title {
