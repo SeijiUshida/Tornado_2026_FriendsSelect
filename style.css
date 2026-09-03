@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .phone {
@@ -22,6 +23,7 @@ body {
   width: 100%;
   max-width: 420px;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   background:
     radial-gradient(120% 60% at 50% 100%, #48619a 0%, #223464 45%, #0d1442 100%);
