@@ -44,16 +44,17 @@
   </nav>
 
   <main class="content">
-    <h1 class="page-title" id="pageTitle">誰と話したい？</h1>
+    <div class="scroll-area">
+      <h1 class="page-title" id="pageTitle">誰と話したい？</h1>
 
-    <p class="notice">
-      <svg class="notice-icon" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
-      あなたが選んだことは、マッチするまで相手にはわかりません
-    </p>
+      <p class="notice">
+        <svg class="notice-icon" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        あなたが選んだことは、マッチするまで相手にはわかりません
+      </p>
 
-    <div class="contact-list" id="contactList" role="radiogroup" aria-label="話したい相手">
-      <button type="button" class="contact-row" data-name="Takumi">
-        <span class="avatar avatar-1">
+      <div class="contact-list" id="contactList" role="radiogroup" aria-label="話したい相手">
+        <button type="button" class="contact-row" data-name="Takumi">
+          <span class="avatar avatar-1">
           <svg viewBox="0 0 40 40" width="22" height="22"><circle cx="20" cy="15" r="7" fill="#eef0fb"/><path d="M6 34c0-8 6-13 14-13s14 5 14 13" fill="none" stroke="#eef0fb" stroke-width="3" stroke-linecap="round"/></svg>
         </span>
         <span class="contact-main">
@@ -134,17 +135,20 @@
           <a class="invite-btn" href="placeholder.html?title=友達を追加">追加</a>
         </div>
       </div>
+      </div>
+
+      <a class="invite-link" href="placeholder.html?title=招待リンクを作る">友達がいない？招待リンクを作る</a>
     </div>
 
-    <a class="invite-link" href="placeholder.html?title=招待リンクを作る">友達がいない？招待リンクを作る</a>
+    <div class="footer-actions">
+      <a class="next-btn" id="nextBtn" href="placeholder.html?title=次へ">次へ</a>
 
-    <a class="next-btn" id="nextBtn" href="placeholder.html?title=次へ">次へ</a>
-
-    <div class="back-btn-wrap">
-      <button class="back-btn" id="backBtn">
-        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        戻る
-      </button>
+      <div class="back-btn-wrap">
+        <button class="back-btn" id="backBtn">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          戻る
+        </button>
+      </div>
     </div>
   </main>
 
